@@ -1,0 +1,76 @@
+ 
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:rgb(236, 236, 236);
+} 
+
+table{
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 20px;
+}
+
+th{
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0px 2px 4px 5px #B5B5B5; 
+    box-shadow: 0px 2px 4px 5px #B5B5B5;
+    cursor: pointer;
+}
+
+th:hover{
+    border-color: aqua;   
+}
+
+.show{
+    background-color: #B5B5B5;;
+}
+
+.timer{
+    font-size: 40px;
+    float: right;
+}
+
+.footer{
+    margin: 50px;
+    text-align: center;
+    background-color: bisque;
+}
+
+
+.lives ul {
+   list-style: none;
+   float: left;
+}
+
+.lives li {
+    float: right;
+    font-size: 35px;
+}
+
+.smileys{
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.difficult{
+    height: 100px;
+    cursor: pointer;
+}
+
+.difficult ul{
+    list-style: none;
+
+}
+
+.difficult li{
+    float: left;
+    font-size: 35px;
+    padding: 20px;
+}
